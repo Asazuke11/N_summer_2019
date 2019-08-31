@@ -1,0 +1,248 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: arial,sans-serif;
+  /* background: linear-gradient(45deg, rgb(35, 36, 39) 0%,rgba(0,0,0,1) 100%); */
+}
+
+#main{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1280px;
+  height: 800px;
+  margin: auto;
+  /* filter: blur(6px) brightness(200%); */
+  
+}
+
+#Canvas-star{
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1280px;
+  height: 800px;
+  margin: auto;
+}
+
+#C-nagarebosi{
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1280px;
+  height: 800px;
+  margin: auto;
+}
+
+#C-background{
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1280px;
+  height: 800px;
+  border: 1px solid snow;
+  margin: auto;
+  filter: brightness(90%);
+  background-image: url(../images/tree.png);
+  background-size:cover;
+}
+
+.css-div{
+  position: absolute; 
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1280px;
+  height: 800px;
+  margin: auto;
+}
+
+.hotaru {
+  position: absolute;
+  bottom:35px;
+  right: 160px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: radial-gradient(
+  farthest-side,
+  rgba(255, 216, 152, 0.7) 10px,
+  rgba(241, 173, 70, 0.1)30px,
+  rgba(241, 173, 70, 0));
+  filter: brightness(80%);
+}
+
+.SEarea{
+  position: absolute;
+  bottom: 300px;
+  right: 50px;
+  color: snow;
+  text-align: left;
+}
+
+#speaker {
+  width: 30px;
+  height:30px;
+  background-image: url(../images/speaker.gif);
+  background-size:cover;
+  background-color: transparent;
+}
+
+#reef {
+  width: 30px;
+  height:30px;
+  background-image: url(../images/icon_reef.png);
+  background-size:cover;
+  background-color: transparent;
+}
+
+#contents{
+  position: absolute;
+  overflow: hidden;
+  top:500px;
+  left: 20px;
+  width:  500px;
+  height: 400px;
+  color: gray;
+  padding: 10px;
+}
+.text-webcon{
+  width:150px;
+  color: gray;
+  text-align: left;
+  background-color: transparent;
+}
+
+.text-webcon:hover{
+  color: snow;
+}
+
+#text-fukidasi{
+  position: absolute;
+  display: none;
+  bottom: 360px;
+  right:150px;
+  position: absolute; 
+  width: 220px;
+  height: 80px;
+  background-image: url(../images/F220x80.png);
+  background-size:cover;
+  animation-name: fade-in;
+  animation-duration: 10s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  opacity: 0;
+}
+
+#comment{
+  position: absolute;
+  width: 220px;
+  color: rgb(206, 203, 203);
+  font-size :14px;
+  margin-top:27px;
+  text-align: center; 
+  vertical-align: middle; 
+}
+
+.bokasi{
+  position: absolute; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1280px;
+  height: 800px;
+  border: 1px solid snow;
+  margin: auto;
+}
+
+#tittle{
+  border: 1px solid snow;
+  margin: auto;
+  text-align: center;
+  line-height:800px;
+  color:snow;
+  font-size: 40px;
+}
+
+#start-text{
+  position: absolute; 
+  bottom: 300px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  color:rgb(206, 162, 162);
+  animation-name: tenmetu;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+@keyframes tenmetu {
+  20%{
+      opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+}
+  20%{
+      opacity: 1;
+  }
+  100%{
+    opacity: 1;
+}
+
+}
+
+#todo{
+  position: absolute; 
+  bottom:150px;
+  left:10px;
+  width: 350px;
+  text-align: right;
+  color:gray;
+}
+
+#todo-input1{
+  color:gray;
+  background-color: rgb(0, 0, 0);
+  outline: 0px;
+  border: dotted 1px rgb(107, 105, 105);
+}
+#todo-input2{
+  color:gray;
+  background-color: rgb(0, 0, 0);
+  outline: 0px;
+  border: dotted 1px rgb(107, 105, 105);
+}
+
+#kaerubotan{
+  text-align: center;
+  width: 60px;
+  height: 24px;
+  background-color: transparent;
+}
+
+#kesukaerubotan{
+  text-align: center;
+  width: 100px;
+  height: 24px;
+  background-color: transparent;
+}

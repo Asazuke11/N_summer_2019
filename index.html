@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>あかねちゃん</title>
+</head>
+
+<body>
+  <div id="main">
+    <canvas id="Canvas-star"></canvas>
+    <canvas id="C-nagarebosi"></canvas>
+    <canvas id="C-background"></canvas>
+    
+    <div class="css-div">
+      <div class="hotaru" id="hotaru-div"></div>
+
+      <div class="SEarea">
+
+        <div id="bgm">
+          <button id="speaker"></button>
+          <span id="onoff">BGM</span>
+        </div>
+
+        <br>
+
+        <div id="SE-musi">
+          <button id="reef"></button>
+          <span id="onoff-reef">環境音</span>
+        </div>
+
+      </div>
+
+      <div id="contents">
+        <div class="text-webcon" id="text-summer">
+          ★ 動くWebページ
+        </div>
+        
+        <div id="todo">
+          あかねちゃんに適当なことしゃべらせる。
+          <br><br>
+          一言目<input type="text" id="todo-input1"size="20"maxlength="20">
+          <br>
+          二言目<input type="text" id="todo-input2"size="18"maxlength="20">
+          <br><br>
+
+          <form id="radio">
+          <input type="radio" name="face" value="0" checked>すまし顔　
+          <input type="radio" name="face" value="1">笑顔１
+          <input type="radio" name="face" value="2">笑顔２
+        </form>
+          <br><br>
+          
+          <button id="kesukaerubotan">
+              <img src="./images/kaerukesu.png" width="80"height="20">
+            </button>
+            <span>　</span>
+            <button id="kaerubotan">
+                <img src="./images/kaerubotan.png" width="50"height="20">
+            </button>
+        </div>
+      </div>
+
+      <div id="text-fukidasi">
+        <span id="comment"></span>
+      </div>
+    </div>
+  </div>
+  <div class="bokasi" id="bokasi_id">
+    <p id="tittle">N予備校 動くWebページコンテスト 2019 夏</p>
+    <div id="start-text">クリックもしくはタップをしてください。</div>
+  </div>
+
+  <script src="./js/function.js"></script>
+  <script src="./js/canvas-star.js"></script>
+  <script src="./js/canvas_nagarebosi.js"></script>
+  <script src="./js/canvas_background.js"></script>
+  <script src="./js/asobi.js"></script>
+  <script src="./js/tittle.js"></script>
+</body>
+
+</html>
