@@ -18,8 +18,7 @@
 
   tweetArray.push({s1:"N予備校の生授業は・・",s2:"火曜・金曜やで",v:2});
   tweetArray.push({s1:"ローカルストレージの使いかたは",s2:"Webデザインコースにあるで",v:2});
-  tweetArray.push({s1:"セリフ入れてOKおすと",s2:"なんかおこるで・・",v:2});
-
+  tweetArray.push({s1:"あー・・",s2:"締め切り迫らないとなにもできへんなぁ・・",v:2});
 
 function coment_loop(){
   clearTimeout(main_loop);
