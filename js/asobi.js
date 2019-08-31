@@ -104,7 +104,8 @@ function coment_loop(){
     tweetArray = [];
     tweetArray.push({s1:"N予備校の生授業は・・",s2:"火曜・金曜やで",v:2});
     tweetArray.push({s1:"ローカルストレージの使いかたは",s2:"Webデザインコースにあるで",v:2});
-    tweetArray.push({s1:"セリフ入れてOKおすと",s2:"なんかおこるで・・",v:2});
+    tweetArray.push({s1:"セリフ入れてなー",s2:"",v:2});
+    tweetArray.push({s1:"変なセリフいれると",s2:"忘れたころに誰かに見られるで",v:1});
     BGM.BGM_5.play();
     osyaberi(
       "ローカルストレージ削除ー",
